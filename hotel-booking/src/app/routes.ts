@@ -7,7 +7,7 @@ export const allRoutes: Route[] = [
     component: AppComponent,
     children: [
       {
-        path: '',
+        path: 'results',
         component: fromContainer.ResultsContainerComponent,
       },
     ],
