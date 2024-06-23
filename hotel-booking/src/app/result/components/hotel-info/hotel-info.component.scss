@@ -1,0 +1,15 @@
+.hotel-info-slot {
+  display: flex;
+  flex-direction: column;
+  .hotel-name-info {
+    text-decoration: underline;
+  }
+  .hotel-details-and-map {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+  }
+  .show-on-map {
+    margin-left: 10px;
+  }
+}

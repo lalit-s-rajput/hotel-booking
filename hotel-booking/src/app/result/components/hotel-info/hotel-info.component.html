@@ -1,1 +1,15 @@
-<p>hotel-info works!</p>
+<div *ngIf="_hotelData" class="hotel-info-slot">
+  <div class="hotel-name-info">
+    <a>
+      <h3>{{ _hotelData.hotel_name }}</h3>
+    </a>
+    <div class="hotel-details-and-map">
+      <span class="in-city"
+        ><a>{{ _hotelData.city_in_trans }}</a></span
+      >
+      <span class="show-on-map"><a>show on map</a></span>
+    </div>
+  </div>
+  <div class="recommended-banner"></div>
+  <div class="cancellation-info"></div>
+</div>
