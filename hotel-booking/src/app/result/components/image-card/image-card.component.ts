@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-image-card',
   templateUrl: './image-card.component.html',
-  styleUrls: ['./image-card.component.scss']
+  styleUrls: ['./image-card.component.scss'],
 })
 export class ImageCardComponent {
-
+  _mainPhotoUrl: string = '';
+  @Input() set mainPhotoUrl(url: string) {
+    this._mainPhotoUrl = url;
+  }
 }

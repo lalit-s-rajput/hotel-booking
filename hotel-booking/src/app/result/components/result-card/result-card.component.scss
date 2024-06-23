@@ -1,0 +1,18 @@
+.result-card {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 20px;
+  min-width: 600px;
+  min-height: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.image-container {
+  flex-basis: 30%;
+}
+.hotel-info {
+  flex-basis: 50%;
+}
+.hotel-review {
+  flex-basis: 20%;
+}

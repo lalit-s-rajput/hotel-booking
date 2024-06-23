@@ -1,1 +1,5 @@
-<app-result-list></app-result-list>
+<div class="results-container">
+  <div class="" *ngIf="hotelResultsData$.value.length">
+    <app-result-list [hotelsData]="hotelResultsData$ | async"></app-result-list>
+  </div>
+</div>

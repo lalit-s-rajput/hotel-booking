@@ -1,1 +1,5 @@
-<p>result-list works!</p>
+<div *ngIf="hotelsData.length" class="hotel-results-list">
+  <div *ngFor="let item of hotelsData">
+    <app-result-card [hotelInfo]="item"></app-result-card>
+  </div>
+</div>
