@@ -1,0 +1,11 @@
+<div *ngIf="_hotelInfo" class="result-card">
+  <div class="image-container">
+    <app-image-card [mainPhotoUrl]="_hotelInfo.main_photo_url"></app-image-card>
+  </div>
+  <div class="hotel-info">
+    <app-hotel-info></app-hotel-info>
+  </div>
+  <div class="hotel-review">
+    <app-hotel-review></app-hotel-review>
+  </div>
+</div>
